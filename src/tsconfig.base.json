@@ -1,0 +1,18 @@
+ {
+    "compilerOptions": {
+    "module": "es2015",
+    "moduleResolution": "node",
+    "declaration": false,
+    "experimentalDecorators": true,
+    "inlineSources": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "lib": [
+      "es2016",
+      "dom"
+    ]
+  }
+ }

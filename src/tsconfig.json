@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "../build-output/",
+    "rootDir": "./",
+    "baseUrl": ""
+  },
+  "exclude": [
+    "**/*.spec.ts"
+  ],
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": false,
+    "skipMetadataEmit" : true,
+    "skipTemplateCodegen": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "hostname": "localhost",
+  "port": 3001,
+  "ssl": {
+    "key": "./ssl/localhost.key",
+    "cert": "./ssl/localhost.crt"
+  },
+  "cors": {
+    "origin": "https://pivision-hackathon.osisoft.com/",
+    "credentials": "true",
+    "headers": "Content-Type",
+    "methods": "GET, POST, PUT, DELETE, OPTIONS, HEAD"
+  }     
+}
